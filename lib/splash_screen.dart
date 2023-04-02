@@ -77,8 +77,7 @@ class _WelcomepageWidgetState extends State<WelcomepageWidget> {
                       bottomRight: Radius.circular(10),
                     ),
                     image: DecorationImage(
-                        image: AssetImage(
-                            'assets/images/Blue_and_white_simple_travel_agency_logoremovebgpreview1.png'),
+                        image: AssetImage('assets/images/tslogo.png'),
                         fit: BoxFit.fitWidth),
                   ))),
         ]));

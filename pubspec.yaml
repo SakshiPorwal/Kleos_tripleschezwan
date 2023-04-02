@@ -72,7 +72,7 @@ flutter:
     - assets/images/drink3.jpg
     - assets/images/drink4.jpg
     - assets/images/drink5.jpg
-    - assets\images\Blue_and_White_Simple_Travel_Agency_Logo-removebg-preview.png
+    - assets/images/tslogo.png
   fonts:
     - family: Roboto
       fonts:
