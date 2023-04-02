@@ -31,7 +31,10 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: _user == null ? LoginWidget() : Dashboard(),
       routes: {
-        '/dashboard': () => Dashboard(),
+        '/dashboard': (BuildContext context) => Builder(
+              builder: (BuildContext context) => Dashboard(),
+            ),
+        // add more routes here
       },
     );
   }
